@@ -1,6 +1,5 @@
 [build]
   functions = "netlify/functions"  # Path to your functions directory
-  publish = "public"             # Path to your static content (if any)
 
 [functions]
   api = { main = "netlify/functions/api/main.handler" }  # Configure the 'api' function
